@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  post '/currency_exchange', to: 'exchange#exchange_api'
 end
